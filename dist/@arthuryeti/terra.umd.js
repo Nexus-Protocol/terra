@@ -45309,7 +45309,7 @@
 
   function isElectron() {
     if (process.versions && process.versions.electron) return true;
-    return typeof window !== 'undefined' && window.process && window.process.type === 'renderer';
+    return true;
   }
 
   function isAlpine(platform) {
