@@ -79,7 +79,7 @@ export const useTransaction = ({ msgs, onSuccess, onError }: Params) => {
 
       return client.tx.estimateFee(address, debouncedMsgs, {
         gasPrices: new Coins([new Coin('uusd', 0.15)]),
-        gasAdjustment: 1.2,
+        gasAdjustment: 1.35,
         feeDenoms: ['uusd'],
       })
     },
