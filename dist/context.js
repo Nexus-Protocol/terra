@@ -20,7 +20,7 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 
 const DEFAULT_NETWORK = {
   name: 'mainnet',
-  chainID: 'colombus-5',
+  chainID: 'columbus-5',
   lcd: 'https://lcd.terra.dev'
 };
 const TerraWebappContext = /*#__PURE__*/(0, _react.createContext)({

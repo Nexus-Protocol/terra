@@ -13,7 +13,7 @@ import { useQuery } from 'react-query'
 
 const DEFAULT_NETWORK = {
   name: 'mainnet',
-  chainID: 'colombus-5',
+  chainID: 'columbus-5',
   lcd: 'https://lcd.terra.dev',
 }
 

@@ -83,7 +83,7 @@ var num = function num(value) {
 
 var DEFAULT_NETWORK = {
   name: 'mainnet',
-  chainID: 'colombus-5',
+  chainID: 'columbus-5',
   lcd: 'https://lcd.terra.dev'
 };
 var TerraWebappContext = /*#__PURE__*/React.createContext({
